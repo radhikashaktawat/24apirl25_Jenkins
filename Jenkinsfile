@@ -4,7 +4,8 @@ pipeline{
         stage("stage1"){
            steps{
             echo 'Welcome to first Declerative Pipeline';
-            sh 'whoami'
+            sh 'whoami';
+            sh'sudo apt update';
 
 }
 }
